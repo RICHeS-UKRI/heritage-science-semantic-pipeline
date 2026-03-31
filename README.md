@@ -26,17 +26,30 @@ document and will be versioned as the project develops.
 | Repository | Role |
 |---|---|
 | [RICHeS-UKRI/HPSWG-Models](https://github.com/RICHeS-UKRI/HPSWG-Models) | Semantic models layer -- CIDOC CRM TSV models defining the canonical module specifications |
-| riches-crm-easyrdf (to be moved to RICHeS-UKRI) | Semantic conversion layer -- PHP functions producing ResearchSpace-compatible RDF |
-| heritagesamples.org (HSR) | PID authority infrastructure for sample entities |
+| riches-crm-easyrdf (to be confirmed under RICHeS-UKRI) | Semantic conversion layer -- PHP functions producing ResearchSpace-compatible RDF |
+| [HeritageSamples/heritagesamples.org](https://github.com/HeritageSamples/heritagesamples.org) | Heritage Samples Registry -- PID authority infrastructure for sample entities (ECHOES project) |
 
 ## Funding and Context
 
-This work is supported by UKRI and carried out within the
-[RICHeS](https://github.com/RICHeS-UKRI) programme. It builds on
-heritage science data infrastructure work at the
-[National Gallery, London](https://www.nationalgallery.org.uk),
-including the Reynolds technical documentation project, the Heritage
-Samples Registry, and the E-RIHS and ECHOES initiatives.
+This work is carried out within the
+[RICHeS](https://github.com/RICHeS-UKRI) programme and is supported
+by two UKRI-funded projects:
+
+- The [Heritage Science Data Service (HSDS)](https://hsds.ac.uk),
+  which is developing shared data infrastructure for heritage science
+  in the UK. See the
+  [HSDS RICHeS investment page](https://www.riches.ukri.org/funding/riches-investments/heritage-science-data-service-hsds/)
+  for further details.
+- The [Reynolds Digital Research Resource](https://www.riches.ukri.org/funding/riches-investments/tranche-1-collections/reynolds-digital-research-resource/),
+  which is developing a semantically rich digital research resource
+  for the Reynolds paintings at the Wallace Collection, drawing on
+  technical documentation held at the National Gallery, London.
+
+The Heritage Samples Registry component of the broader pipeline is
+funded separately by the
+[ECHOES project](https://www.echoes-eccch.eu/) and is developed
+under the [HeritageSamples](https://github.com/HeritageSamples)
+GitHub organisation.
 
 ## Status
 
